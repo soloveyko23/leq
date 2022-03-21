@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Make Deposit</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220225200416">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top">
+					<div class="header__title-mob header__steps">
+						<span>Make Deposit — Step 1</span>
+						<h3>Plan & Amount</h3>
+
+					</div>
+					<a href="#" class="header__logo">LEQ</a>
+					<div class="header__menu menu">
+
+						<nav class="menu__body">
+							<div class="menu__account">
+								<div class="menu__icon">
+									<img src="img/account/icon.svg?_v=1645812256343" alt="icon">
+								</div>
+								<div class="menu__info">
+									<h4>
+										yulia.94
+									</h4>
+									<span>
+										yulia.m@mail.com
+									</span>
+									<p>
+										Tap to view and edit account
+									</p>
+								</div>
+							</div>
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Dashboard</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Make Deposit</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Your Deposits</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Referrals</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Withdraw</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Support</a></li>
+								<li class="menu__item menu__item-logout"><a href="#" class="menu__link">Logout</a></li>
+							</ul>
+							<a href="#" class="menu__btn btn-purple btn-purple_big">Hide</a>
+						</nav>
+					</div>
+					<div class="header__right">
+
+						<div class="header__account account">
+							<div class="account__wrap">
+								<div class="account__icon">
+									<img src="img/account/icon.svg?_v=1645812256343" alt="icon">
+								</div>
+								<div class="account__info">
+									<h5 class="account__nickname">@nickname</h5>
+									<span class="account__mail">exmpl@mail.com</span>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		<main class="page make-deposit_page">
+			<section class="page-title mb-2">
+				<div class="page-title__container d-flex aic jcsb">
+					<h1 class="title">Make Deposit</h1>
+				</div>
+			</section>
+			<!-- /.page-title -->
+			<section class="make-deposit">
+				<div class="make-deposit__container">
+					<div class="make-deposit__body">
+						<div class="make-deposit__left left-plan">
+							<h3 class="title--small mb-16">Select Plan</h3>
+							<div class="left-plan__daily left-plan__row">
+								<h4 class="left-plan__caption make-deposit__caption mb-16">Daily</h4>
+								<div class="left-plan__list">
+									<div class="checkbox-item make-deposit__item item-deposit popular-item">
+										<input id="c_1" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+										<label for="c_1" class="checkbox__label ">
+											<div class="item-deposit__body border">
+												<div class="item-deposit__header">
+													<h4 class="item-deposit__title">Alpha</h4>
+													<span class="checkbox__checkmark">
+														<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+													</span>
+												</div>
+												<div class="item-deposit__content">
+													<div class="item-deposit__from_to">
+														<div class="item-deposit__table">
+															<div class="item-deposit__row">
+																<span>from</span>
+																<p>100</p>
+															</div>
+															<div class="item-deposit__row">
+																<span>to</span>
+																<p>2.000</p>
+															</div>
+														</div>
+													</div>
+													<div class="item-deposit__percent">
+														0.9<span>%</span>
+													</div>
+												</div>
+											</div>
+										</label>
+									</div>
+									<div class="checkbox-item make-deposit__item item-deposit">
+										<input id="c_2" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+										<label for="c_2" class="checkbox__label ">
+											<div class="item-deposit__body border">
+												<div class="item-deposit__header">
+													<h4 class="item-deposit__title">Alpha</h4>
+													<span class="checkbox__checkmark">
+														<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+													</span>
+												</div>
+												<div class="item-deposit__content">
+													<div class="item-deposit__from_to">
+														<div class="item-deposit__table">
+															<div class="item-deposit__row">
+																<span>from</span>
+																<p>300</p>
+															</div>
+															<div class="item-deposit__row">
+																<span>to</span>
+																<p>4.000</p>
+															</div>
+														</div>
+													</div>
+													<div class="item-deposit__percent">
+														0.1<span>%</span>
+													</div>
+												</div>
+											</div>
+										</label>
+									</div>
+									<div class="checkbox-item make-deposit__item item-deposit">
+										<input id="c_3" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+										<label for="c_3" class="checkbox__label ">
+											<div class="item-deposit__body border">
+												<div class="item-deposit__header">
+													<h4 class="item-deposit__title">Alpha</h4>
+													<span class="checkbox__checkmark">
+														<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+													</span>
+												</div>
+												<div class="item-deposit__content">
+													<div class="item-deposit__from_to">
+														<div class="item-deposit__table">
+															<div class="item-deposit__row">
+																<span>from</span>
+																<p>300</p>
+															</div>
+															<div class="item-deposit__row">
+																<span>to</span>
+																<p>50.000</p>
+															</div>
+														</div>
+													</div>
+													<div class="item-deposit__percent">
+														0.1<span>%</span>
+													</div>
+												</div>
+											</div>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="left-plan__after left-plan__row">
+								<h4 class="left-plan__caption make-deposit__caption mb-16">After</h4>
+								<div class="left-plan__list">
+									<div class="checkbox-item make-deposit__item item-deposit">
+										<input id="c_5" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+										<label for="c_5" class="checkbox__label ">
+											<div class="item-deposit__body border">
+												<div class="item-deposit__header">
+													<h4 class="item-deposit__title">Alpha</h4>
+													<span class="checkbox__checkmark">
+														<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+													</span>
+												</div>
+												<div class="item-deposit__content">
+													<div class="item-deposit__from_to">
+														<div class="item-deposit__table">
+															<div class="item-deposit__row">
+																<span>from</span>
+																<p>300</p>
+															</div>
+															<div class="item-deposit__row">
+																<span>to</span>
+																<p>5.000</p>
+															</div>
+														</div>
+													</div>
+													<div class="item-deposit__percent">
+														0.9<span>%</span>
+													</div>
+												</div>
+											</div>
+										</label>
+									</div>
+									<div class="checkbox-item make-deposit__item item-deposit">
+										<input id="c_6" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+										<label for="c_6" class="checkbox__label ">
+											<div class="item-deposit__body border">
+												<div class="item-deposit__header">
+													<h4 class="item-deposit__title">Alpha</h4>
+													<span class="checkbox__checkmark">
+														<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+													</span>
+												</div>
+												<div class="item-deposit__content">
+													<div class="item-deposit__from_to">
+														<div class="item-deposit__table">
+															<div class="item-deposit__row">
+																<span>from</span>
+																<p>300</p>
+															</div>
+															<div class="item-deposit__row">
+																<span>to</span>
+																<p>5.000</p>
+															</div>
+														</div>
+													</div>
+													<div class="item-deposit__percent">
+														0.1<span>%</span>
+													</div>
+												</div>
+											</div>
+										</label>
+									</div>
+									<div class="checkbox-item make-deposit__item item-deposit">
+										<input id="c_7" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+										<label for="c_7" class="checkbox__label ">
+											<div class="item-deposit__body border">
+												<div class="item-deposit__header">
+													<h4 class="item-deposit__title">Alpha</h4>
+													<span class="checkbox__checkmark">
+														<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+													</span>
+												</div>
+												<div class="item-deposit__content">
+													<div class="item-deposit__from_to">
+														<div class="item-deposit__table">
+															<div class="item-deposit__row">
+																<span>from</span>
+																<p>300</p>
+															</div>
+															<div class="item-deposit__row">
+																<span>to</span>
+																<p>5.000</p>
+															</div>
+														</div>
+													</div>
+													<div class="item-deposit__percent">
+														0.1<span>%</span>
+													</div>
+												</div>
+											</div>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="left-plan__vip left-plan__row">
+								<h4 class="left-plan__caption make-deposit__caption mb-16">VIP</h4>
+								<div class="left-plan__list">
+									<div class="checkbox-item make-deposit__item item-deposit">
+										<input id="c_8" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+										<label for="c_8" class="checkbox__label ">
+											<div class="item-deposit__body border">
+												<div class="item-deposit__header">
+													<h4 class="item-deposit__title">Alpha</h4>
+													<span class="checkbox__checkmark">
+														<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+													</span>
+												</div>
+												<div class="item-deposit__content">
+													<div class="item-deposit__from_to">
+														<div class="item-deposit__table">
+															<div class="item-deposit__row">
+																<span>from</span>
+																<p>300</p>
+															</div>
+															<div class="item-deposit__row">
+																<span>to</span>
+																<p>5.000</p>
+															</div>
+														</div>
+													</div>
+													<div class="item-deposit__percent">
+														0.9<span>%</span>
+													</div>
+												</div>
+											</div>
+										</label>
+									</div>
+									<div class="checkbox-item make-deposit__item item-deposit">
+										<input id="c_9" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+										<label for="c_9" class="checkbox__label ">
+											<div class="item-deposit__body border">
+												<div class="item-deposit__header">
+													<h4 class="item-deposit__title">Alpha</h4>
+													<span class="checkbox__checkmark">
+														<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+													</span>
+												</div>
+												<div class="item-deposit__content">
+													<div class="item-deposit__from_to">
+														<div class="item-deposit__table">
+															<div class="item-deposit__row">
+																<span>from</span>
+																<p>300</p>
+															</div>
+															<div class="item-deposit__row">
+																<span>to</span>
+																<p>5.000</p>
+															</div>
+														</div>
+													</div>
+													<div class="item-deposit__percent">
+														0.1<span>%</span>
+													</div>
+												</div>
+											</div>
+										</label>
+									</div>
+									<div class="checkbox-item make-deposit__item item-deposit">
+										<input id="c_10" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+										<label for="c_10" class="checkbox__label ">
+											<div class="item-deposit__body border">
+												<div class="item-deposit__header">
+													<h4 class="item-deposit__title">Alpha</h4>
+													<span class="checkbox__checkmark">
+														<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+													</span>
+												</div>
+												<div class="item-deposit__content">
+													<div class="item-deposit__from_to">
+														<div class="item-deposit__table">
+															<div class="item-deposit__row">
+																<span>from</span>
+																<p>300</p>
+															</div>
+															<div class="item-deposit__row">
+																<span>to</span>
+																<p>5.000</p>
+															</div>
+														</div>
+													</div>
+													<div class="item-deposit__percent">
+														0.1<span>%</span>
+													</div>
+												</div>
+											</div>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="left-plan__block--mob left-plan__list">
+								<div class="checkbox-item make-deposit__item item-deposit item-deposit__daily popular-item">
+									<input id="c_Mob1" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+									<label for="c_Mob1" class="checkbox__label ">
+										<div class="item-deposit__body border">
+											<div class="item-deposit__header">
+												<h4 class="item-deposit__title">Alpha</h4>
+												<span class="checkbox__checkmark">
+													<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+												</span>
+												<span class="item-deposit__subtitle">Daily</span>
+											</div>
+											<div class="item-deposit__content">
+												<div class="item-deposit__from_to">
+													<div class="item-deposit__table">
+														<div class="item-deposit__row">
+															<span>from</span>
+															<p>300</p>
+														</div>
+														<div class="item-deposit__row">
+															<span>to</span>
+															<p>5.000</p>
+														</div>
+													</div>
+												</div>
+												<div class="item-deposit__percent">
+													0.9<span>%</span>
+												</div>
+											</div>
+										</div>
+									</label>
+								</div>
+								<div class="checkbox-item make-deposit__item item-deposit item-deposit__daily">
+									<input id="c_Mob2" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+									<label for="c_Mob2" class="checkbox__label ">
+										<div class="item-deposit__body border">
+											<div class="item-deposit__header">
+												<h4 class="item-deposit__title">Alpha</h4>
+												<span class="checkbox__checkmark">
+													<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+												</span>
+												<span class="item-deposit__subtitle">Daily</span>
+											</div>
+											<div class="item-deposit__content">
+												<div class="item-deposit__from_to">
+													<div class="item-deposit__table">
+														<div class="item-deposit__row">
+															<span>from</span>
+															<p>300</p>
+														</div>
+														<div class="item-deposit__row">
+															<span>to</span>
+															<p>5.000</p>
+														</div>
+													</div>
+												</div>
+												<div class="item-deposit__percent">
+													0.1<span>%</span>
+												</div>
+											</div>
+										</div>
+									</label>
+								</div>
+								<div class="checkbox-item make-deposit__item item-deposit item-deposit__daily">
+									<input id="c_Mob3" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+									<label for="c_Mob3" class="checkbox__label ">
+										<div class="item-deposit__body border">
+											<div class="item-deposit__header">
+												<h4 class="item-deposit__title">Alpha</h4>
+												<span class="checkbox__checkmark">
+													<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+												</span>
+												<span class="item-deposit__subtitle">Daily</span>
+											</div>
+											<div class="item-deposit__content">
+												<div class="item-deposit__from_to">
+													<div class="item-deposit__table">
+														<div class="item-deposit__row">
+															<span>from</span>
+															<p>300</p>
+														</div>
+														<div class="item-deposit__row">
+															<span>to</span>
+															<p>5.000</p>
+														</div>
+													</div>
+												</div>
+												<div class="item-deposit__percent">
+													0.1<span>%</span>
+												</div>
+											</div>
+										</div>
+									</label>
+								</div>
+								<div class="checkbox-item make-deposit__item item-deposit item-deposit__after">
+									<input id="c_Mob5" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+									<label for="c_Mob5" class="checkbox__label ">
+										<div class="item-deposit__body border">
+											<div class="item-deposit__header">
+												<h4 class="item-deposit__title">Alpha</h4>
+												<span class="checkbox__checkmark">
+													<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+												</span>
+												<span class="item-deposit__subtitle">After</span>
+											</div>
+											<div class="item-deposit__content">
+												<div class="item-deposit__from_to">
+													<div class="item-deposit__table">
+														<div class="item-deposit__row">
+															<span>from</span>
+															<p>300</p>
+														</div>
+														<div class="item-deposit__row">
+															<span>to</span>
+															<p>5.000</p>
+														</div>
+													</div>
+												</div>
+												<div class="item-deposit__percent">
+													0.9<span>%</span>
+												</div>
+											</div>
+										</div>
+									</label>
+								</div>
+								<div class="checkbox-item make-deposit__item item-deposit item-deposit__after">
+									<input id="c_Mob6" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+									<label for="c_Mob6" class="checkbox__label ">
+										<div class="item-deposit__body border">
+											<div class="item-deposit__header">
+												<h4 class="item-deposit__title">Alpha</h4>
+												<span class="checkbox__checkmark">
+													<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+												</span>
+												<span class="item-deposit__subtitle">After</span>
+											</div>
+											<div class="item-deposit__content">
+												<div class="item-deposit__from_to">
+													<div class="item-deposit__table">
+														<div class="item-deposit__row">
+															<span>from</span>
+															<p>300</p>
+														</div>
+														<div class="item-deposit__row">
+															<span>to</span>
+															<p>5.000</p>
+														</div>
+													</div>
+												</div>
+												<div class="item-deposit__percent">
+													0.1<span>%</span>
+												</div>
+											</div>
+										</div>
+									</label>
+								</div>
+								<div class="checkbox-item make-deposit__item item-deposit item-deposit__after">
+									<input id="c_Mob7" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+									<label for="c_Mob7" class="checkbox__label ">
+										<div class="item-deposit__body border">
+											<div class="item-deposit__header">
+												<h4 class="item-deposit__title">Alpha</h4>
+												<span class="checkbox__checkmark">
+													<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+												</span>
+												<span class="item-deposit__subtitle">After</span>
+											</div>
+											<div class="item-deposit__content">
+												<div class="item-deposit__from_to">
+													<div class="item-deposit__table">
+														<div class="item-deposit__row">
+															<span>from</span>
+															<p>300</p>
+														</div>
+														<div class="item-deposit__row">
+															<span>to</span>
+															<p>5.000</p>
+														</div>
+													</div>
+												</div>
+												<div class="item-deposit__percent">
+													0.1<span>%</span>
+												</div>
+											</div>
+										</div>
+									</label>
+								</div>
+								<div class="checkbox-item make-deposit__item item-deposit item-deposit__vip">
+									<input id="c_Mob8" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+									<label for="c_Mob8" class="checkbox__label ">
+										<div class="item-deposit__body border">
+											<div class="item-deposit__header">
+												<h4 class="item-deposit__title">Alpha</h4>
+												<span class="checkbox__checkmark">
+													<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+												</span>
+												<span class="item-deposit__subtitle">Vip</span>
+											</div>
+											<div class="item-deposit__content">
+												<div class="item-deposit__from_to">
+													<div class="item-deposit__table">
+														<div class="item-deposit__row">
+															<span>from</span>
+															<p>300</p>
+														</div>
+														<div class="item-deposit__row">
+															<span>to</span>
+															<p>5.000</p>
+														</div>
+													</div>
+												</div>
+												<div class="item-deposit__percent">
+													0.9<span>%</span>
+												</div>
+											</div>
+										</div>
+									</label>
+								</div>
+								<div class="checkbox-item make-deposit__item item-deposit item-deposit__vip">
+									<input id="c_Mob9" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+									<label for="c_Mob9" class="checkbox__label ">
+										<div class="item-deposit__body border">
+											<div class="item-deposit__header">
+												<h4 class="item-deposit__title">Alpha</h4>
+												<span class="checkbox__checkmark">
+													<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+												</span>
+												<span class="item-deposit__subtitle">Vip</span>
+											</div>
+											<div class="item-deposit__content">
+												<div class="item-deposit__from_to">
+													<div class="item-deposit__table">
+														<div class="item-deposit__row">
+															<span>from</span>
+															<p>300</p>
+														</div>
+														<div class="item-deposit__row">
+															<span>to</span>
+															<p>5.000</p>
+														</div>
+													</div>
+												</div>
+												<div class="item-deposit__percent">
+													0.1<span>%</span>
+												</div>
+											</div>
+										</div>
+									</label>
+								</div>
+								<div class="checkbox-item make-deposit__item item-deposit item-deposit__vip">
+									<input id="c_Mob10" data-error="Ошибка" class="checkbox__input" type="radio" value="1" name="form[]">
+									<label for="c_Mob10" class="checkbox__label ">
+										<div class="item-deposit__body border">
+											<div class="item-deposit__header">
+												<h4 class="item-deposit__title">Alpha</h4>
+												<span class="checkbox__checkmark">
+													<img src="img/icons/check.svg?_v=1645812256343" alt="svg">
+												</span>
+												<span class="item-deposit__subtitle">Vip</span>
+											</div>
+											<div class="item-deposit__content">
+												<div class="item-deposit__from_to">
+													<div class="item-deposit__table">
+														<div class="item-deposit__row">
+															<span>from</span>
+															<p>300</p>
+														</div>
+														<div class="item-deposit__row">
+															<span>to</span>
+															<p>5.000</p>
+														</div>
+													</div>
+												</div>
+												<div class="item-deposit__percent">
+													0.1<span>%</span>
+												</div>
+											</div>
+										</div>
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="make-deposit__right right-payment">
+							<div class="right-payment__body">
+								<div class="right-payment__header">
+									<h3 class="right-payment__title mb-16">Amount of Payment</h3>
+									<div class="right-payment__inp input-dollar mb-16">
+										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="300.00" class="input _only_num">
+									</div>
+									<div class="right-payment__amount">
+										Amount most be from $ to $
+									</div>
+								</div>
+								<div class="right-payment__list">
+									<div class="right-payment__item d-flex
+                                        aic jcsb">
+										<div class="right-payment__left">
+											<div class="icon">
+												<img src="img/payment/dash.svg?_v=1645812256343" alt="dash">
+											</div>
+											<div class="info">
+												<h4>Dash</h4>
+												<span>$ 10.000,00</span>
+											</div>
+										</div>
+										<div class="right-payment__right">
+											<div class="options">
+												<div class="options__item">
+													<input hidden id="o_1" class="options__input" checked type="radio" value="1" name="option">
+													<label for="o_1" class="options__label"><span class="options__text">Top up</span></label>
+												</div>
+												<div class="options__item">
+													<input hidden id="o_2" class="options__input" type="radio" value="2" name="option" checked>
+													<label for="o_2" class="options__label"><span class="options__text">Balance</span></label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="right-payment__item d-flex
+                                        aic jcsb">
+										<div class="right-payment__left">
+											<div class="icon">
+												<img src="img/payment/doge.svg?_v=1645812256343" alt="doge">
+											</div>
+											<div class="info">
+												<h4>DogCoin</h4>
+												<span>$ 10.000,00</span>
+											</div>
+										</div>
+										<div class="right-payment__right">
+											<div class="options">
+												<div class="options__item">
+													<input hidden id="o_3" class="options__input" checked type="radio" value="1" name="option">
+													<label for="o_3" class="options__label"><span class="options__text">Top up</span></label>
+												</div>
+												<div class="options__item">
+													<input hidden id="o_4" class="options__input" type="radio" value="2" name="option" checked>
+													<label for="o_4" class="options__label"><span class="options__text">Balance</span></label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="right-payment__item d-flex
+                                        aic jcsb">
+										<div class="right-payment__left">
+											<div class="icon">
+												<img src="img/payment/btc.svg?_v=1645812256343" alt="btc">
+											</div>
+											<div class="info">
+												<h4>Bitcoin</h4>
+												<span>$ 10.000,00</span>
+											</div>
+										</div>
+										<div class="right-payment__right">
+											<div class="options">
+												<div class="options__item">
+													<input hidden id="o_5" class="options__input" checked type="radio" value="1" name="option">
+													<label for="o_5" class="options__label"><span class="options__text">Top up</span></label>
+												</div>
+												<div class="options__item">
+													<input hidden id="o_6" class="options__input" type="radio" value="2" name="option" checked>
+													<label for="o_6" class="options__label"><span class="options__text">Balance</span></label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="right-payment__item d-flex
+                                        aic jcsb">
+										<div class="right-payment__left">
+											<div class="icon">
+												<img src="img/payment/eth.svg?_v=1645812256343" alt="eth">
+											</div>
+											<div class="info">
+												<h4>Ethereum</h4>
+												<span>$ 10.000,00</span>
+											</div>
+										</div>
+										<div class="right-payment__right">
+											<div class="options">
+												<div class="options__item">
+													<input hidden id="o_7" class="options__input" checked type="radio" value="1" name="option">
+													<label for="o_7" class="options__label"><span class="options__text">Top up</span></label>
+												</div>
+												<div class="options__item">
+													<input hidden id="o_8" class="options__input" type="radio" value="2" name="option" checked>
+													<label for="o_8" class="options__label"><span class="options__text">Balance</span></label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="right-payment__item d-flex
+                                        aic jcsb">
+										<div class="right-payment__left">
+											<div class="icon">
+												<img src="img/payment/ltc.svg?_v=1645812256343" alt="ltc">
+											</div>
+											<div class="info">
+												<h4>Litecoin</h4>
+												<span>$ 10.000,00</span>
+											</div>
+										</div>
+										<div class="right-payment__right">
+											<div class="options">
+												<div class="options__item">
+													<input hidden id="o_9" class="options__input" checked type="radio" value="1" name="option">
+													<label for="o_9" class="options__label"><span class="options__text">Top up</span></label>
+												</div>
+												<div class="options__item">
+													<input hidden id="o_10" class="options__input" type="radio" value="2" name="option" checked>
+													<label for="o_10" class="options__label"><span class="options__text">Balance</span></label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="right-payment__item d-flex
+                                        aic jcsb">
+										<div class="right-payment__left">
+											<div class="icon">
+												<img src="img/payment/xmr.svg?_v=1645812256343" alt="xmr">
+											</div>
+											<div class="info">
+												<h4>Monero</h4>
+												<span>$ 10.000,00</span>
+											</div>
+										</div>
+										<div class="right-payment__right">
+											<div class="options">
+												<div class="options__item">
+													<input hidden id="o_11" class="options__input" checked type="radio" value="1" name="option">
+													<label for="o_11" class="options__label"><span class="options__text">Top up</span></label>
+												</div>
+												<div class="options__item">
+													<input hidden id="o_12" class="options__input" type="radio" value="2" name="option" checked>
+													<label for="o_12" class="options__label"><span class="options__text">Balance</span></label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="right-payment__item d-flex
+                                        aic jcsb">
+										<div class="right-payment__left">
+											<div class="icon">
+												<img src="img/payment/nm.svg?_v=1645812256343" alt="nm">
+											</div>
+											<div class="info">
+												<h4>NixMoney</h4>
+												<span>$ 10.000,00</span>
+											</div>
+										</div>
+										<div class="right-payment__right">
+											<div class="options">
+												<div class="options__item">
+													<input hidden id="o_13" class="options__input" checked type="radio" value="1" name="option">
+													<label for="o_13" class="options__label"><span class="options__text">Top up</span></label>
+												</div>
+												<div class="options__item">
+													<input hidden id="o_14" class="options__input" type="radio" value="2" name="option" checked>
+													<label for="o_14" class="options__label"><span class="options__text">Balance</span></label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="right-payment__item d-flex
+                                        aic jcsb">
+										<div class="right-payment__left">
+											<div class="icon">
+												<img src="img/payment/pm.svg?_v=1645812256343" alt="pm">
+											</div>
+											<div class="info">
+												<h4>PerfectMoney</h4>
+												<span>$ 10.000,00</span>
+											</div>
+										</div>
+										<div class="right-payment__right">
+											<div class="options">
+												<div class="options__item">
+													<input hidden id="o_15" class="options__input" checked type="radio" value="1" name="option">
+													<label for="o_15" class="options__label"><span class="options__text">Top up</span></label>
+												</div>
+												<div class="options__item">
+													<input hidden id="o_16" class="options__input" type="radio" value="2" name="option" checked>
+													<label for="o_16" class="options__label"><span class="options__text">Balance</span></label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="right-payment__item d-flex
+                                        aic jcsb">
+										<div class="right-payment__left">
+											<div class="icon">
+												<img src="img/payment/tether-erc.svg?_v=1645812256343" alt="tether-erc">
+											</div>
+											<div class="info">
+												<h4>Tether-ERC20</h4>
+												<span>$ 10.000,00</span>
+											</div>
+										</div>
+										<div class="right-payment__right">
+											<div class="options">
+												<div class="options__item">
+													<input hidden id="o_17" class="options__input" checked type="radio" value="1" name="option">
+													<label for="o_17" class="options__label"><span class="options__text">Top up</span></label>
+												</div>
+												<div class="options__item">
+													<input hidden id="o_18" class="options__input" type="radio" value="2" name="option" checked>
+													<label for="o_18" class="options__label"><span class="options__text">Balance</span></label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="right-payment__item d-flex
+                                        aic jcsb">
+										<div class="right-payment__left">
+											<div class="icon">
+												<img src="img/payment/tether-trc.svg?_v=1645812256343" alt="tether-trc">
+											</div>
+											<div class="info">
+												<h4>Tether-TRC20</h4>
+												<span>$ 10.000,00</span>
+											</div>
+										</div>
+										<div class="right-payment__right">
+											<div class="options">
+												<div class="options__item">
+													<input hidden id="o_19" class="options__input" checked type="radio" value="1" name="option">
+													<label for="o_19" class="options__label"><span class="options__text">Top up</span></label>
+												</div>
+												<div class="options__item">
+													<input hidden id="o_20" class="options__input" type="radio" value="2" name="option" checked>
+													<label for="o_20" class="options__label"><span class="options__text">Balance</span></label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="right-payment__btn">
+									<button type="submit" class="button btn-purple">Go next</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.make-deposit -->
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+
+			</div>
+		</footer>
+	</div>
+	<!-- <div class="hystmodal" id="myPopup" aria-hidden="true">
+	<div class="hystmodal__wrap">
+		<div class="hystmodal__window" role="dialog" aria-modal="true">
+			<button data-hystclose class="hystmodal__close">Закрыть</button>
+		</div>
+	</div>
+</div>
+<div class="hystmodal" id="massageName" aria-hidden="true">
+	<div class="hystmodal__wrap">
+		<div class="hystmodal__window" role="dialog" aria-modal="true">
+			<button data-hystclose class="hystmodal__close">Закрыть</button>
+			Сообщение
+		</div>
+	</div>
+</div>
+ -->
+	<script src="js/app.min.js?_v=20220225200416"></script>
+</body>
+
+</html>
